@@ -16,7 +16,7 @@ class DebugteamAdminlteThemeBundle extends AbstractBundle
             ->children()
             ->arrayNode('configblock')
             ->children()
-            ->integerNode('somedata')->end()
+            ->scalarNode('somedata')->end()
             ->scalarNode('someotherdata')->end()
             ->end()
             ->end()
