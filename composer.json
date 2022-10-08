@@ -1,5 +1,6 @@
 {
   "name": "debugteam/adminlte-theme-bundle",
+  "type": "symfony-bundle",
   "description": "Services and twig templates to simplify the usage of AdminLTE 3",
   "authors": [
     {
@@ -9,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Debugteam\\AdminLTEBundle\\": "src"
+      "Debugteam\\AdminLTEBundle\\": "src/"
     }
   },
   "autoload-dev": {
