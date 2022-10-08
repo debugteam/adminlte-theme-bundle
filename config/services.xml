@@ -5,7 +5,7 @@
         https://symfony.com/schema/dic/services/services-1.0.xsd"
 >
     <services>
-        <service id="debugteam.adminlte.debugteam_adminlte_theme" class="Debugteam\AdminLTEBundle\Navigation">
+        <service id="debugteam.adminlte.debugteam_adminlte_theme" class="Debugteam\AdminLTEBundle\Service\Navigation">
             <argument></argument>
             <argument></argument>
         </service>
