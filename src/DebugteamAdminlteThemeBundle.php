@@ -26,8 +26,10 @@ class DebugteamAdminlteThemeBundle extends AbstractBundle
 
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
+        $container->import('../config/services.xml');
+
         $container->services()
-            ->get('debugteam.adminlte.theme')
+            ->get('debugteam.adminlte.debugteam_adminlte_theme')
             ->arg(0, $config['configblock']['somedata'])
             ->arg(1, $config['configblock']['someotherdata'])
         ;
