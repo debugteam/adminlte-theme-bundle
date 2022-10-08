@@ -25,7 +25,7 @@ in the `config/bundles.php` file of your project:
 
 return [
     // ...
-        Debugteam\AdminLTEBundle\DebugteamAdminLTEThemeBundle::class => ['all' => true],
+        Debugteam\AdminLTEBundle\DebugteamAdminlteThemeBundle::class => ['all' => true],
 ];
 ```
 
@@ -77,8 +77,6 @@ One way of using it is extending your projects base.html.twig
 ```
 {% extends '@DebugteamAdminLTETheme/base.html.twig' %}
 ```
-
-
 
 Dashboards [here](docs/Dashboards.md)
 
