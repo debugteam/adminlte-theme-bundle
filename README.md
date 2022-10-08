@@ -25,7 +25,7 @@ in the `config/bundles.php` file of your project:
 
 return [
     // ...
-    Debugteam\AdminLTEBundle\DebugteamAdminLTEBundle::class => ['all' => true],
+        Debugteam\AdminLTEBundle\DebugteamAdminLTEThemeBundle::class => ['all' => true],
 ];
 ```
 

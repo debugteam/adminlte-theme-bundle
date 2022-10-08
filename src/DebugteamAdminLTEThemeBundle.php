@@ -1,6 +1,6 @@
 <?php
 
-namespace Debugteam\AdminLTEThemeBundle;
+namespace Debugteam\AdminLTEBundle;
 
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
