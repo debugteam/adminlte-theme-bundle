@@ -2,6 +2,7 @@
 
 namespace Debugteam\AdminLTEBundle;
 
+use Symfony\Component\Config\Definition\Configurator\DefinitionConfigurator;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
 class DebugteamAdminlteThemeBundle extends AbstractBundle
