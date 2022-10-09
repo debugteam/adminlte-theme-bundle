@@ -1,13 +1,13 @@
 <?php
 
-namespace Debugteam\AdminlteBundle;
+namespace Debugteam\Bundle\AdminlteThemeBundle;
 
 use Symfony\Component\Config\Definition\Configurator\DefinitionConfigurator;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-class DebugteamAdminlteBundle extends AbstractBundle
+class AdminlteThemeBundle extends AbstractBundle
 {
 
     public function configure(DefinitionConfigurator $definition): void
