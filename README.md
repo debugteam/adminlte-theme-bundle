@@ -25,9 +25,20 @@ in the `config/bundles.php` file of your project:
 
 return [
     // ...
-        Debugteam\AdminLTEBundle\AdminlteThemeBundle::class => ['all' => true],
+        Debugteam\Bundle\AdminlteThemeBundle\AdminlteThemeBundle::class => ['all' => true],
 ];
 ```
+
+And add following to service.yaml
+
+```yaml
+    Debugteam\Bundle\AdminlteThemeBundle\Service\Navigation:
+        public: true
+        arguments:
+            - 'foo'
+            - 'bar'
+```
+
 
 ---
 
