@@ -1,4 +1,4 @@
-debugteam_adminlte_theme:
+debugteam_adminlte:
   configblock:
     somedata: foo
     someotherdata: bar
