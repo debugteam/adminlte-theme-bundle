@@ -29,9 +29,9 @@ class AdminlteThemeBundle extends AbstractBundle
         $container->import('../Resources/config/services.xml');
 
         $container->services()
-            ->get('debugteam.adminlte.debugteam_adminlte_theme')
-            ->arg(0, $config['configblock']['somedata'])
-            ->arg(1, $config['configblock']['someotherdata'])
+            ->get('debugteam.bundle.debugteam_adminlte_theme')
+            ->arg(0, $config['configblock']['somedata'] ?? '')
+            ->arg(1, $config['configblock']['someotherdata'] ?? '')
         ;
     }
 
