@@ -1,6 +1,6 @@
 <?php
 
-namespace Debugteam\AdminLTEBundle\Service;
+namespace Debugteam\AdminlteBundle\Service;
 
 class Navigation
 {

@@ -10,12 +10,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Debugteam\\AdminLTEBundle\\": "src/"
+      "Debugteam\\AdminlteBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Debugteam\\AdminLTEBundle\\Tests\\": "tests/"
+      "Debugteam\\AdminlteBundle\\Tests\\": "tests/"
     }
   },
   "license": "MIT",
