@@ -90,4 +90,6 @@ Dashboards [here](docs/Dashboards.md)
 
 Navigations [here](docs/Navigations.md)
 
+License [here](docs/License.md)
+
 
