@@ -34,9 +34,6 @@ And add following to service.yaml
 ```yaml
     Debugteam\Bundle\AdminlteThemeBundle\Service\Navigation:
         public: true
-        arguments:
-            - 'foo'
-            - 'bar'
 ```
 
 
