@@ -81,6 +81,7 @@ import './bootstrap';
 ## How to use it
 
 
+How to start [here](docs/HowToStart.md)
 
 Dashboards [here](docs/Dashboards.md)
 
