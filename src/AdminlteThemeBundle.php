@@ -12,16 +12,7 @@ class AdminlteThemeBundle extends AbstractBundle
 
     public function configure(DefinitionConfigurator $definition): void
     {
-        $definition->rootNode()
-            ->children()
-            ->arrayNode('configblock')
-            ->children()
-            ->scalarNode('somedata')->end()
-            ->scalarNode('someotherdata')->end()
-            ->end()
-            ->end()
-            ->end()
-        ;
+        $definition->rootNode();
     }
 
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
@@ -30,8 +21,6 @@ class AdminlteThemeBundle extends AbstractBundle
 
         $container->services()
             ->get('debugteam.bundle.debugteam_adminlte_theme')
-            ->arg(0, $config['configblock']['somedata'] ?? '')
-            ->arg(1, $config['configblock']['someotherdata'] ?? '')
         ;
     }
 

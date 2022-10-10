@@ -86,7 +86,7 @@ import './bootstrap';
 One way of using it is extending your projects base.html.twig
 
 ```
-{% extends '@DebugteamAdminlteTheme/base.html.twig' %}
+{% extends '@AdminlteTheme/base.html.twig' %}
 ```
 
 Dashboards [here](docs/Dashboards.md)
