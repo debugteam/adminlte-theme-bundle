@@ -1,3 +1,4 @@
 services:
-  Debugteam\Bundle\AdminlteThemeBundle\Service\Navigation:
+  debugteam.bundle.debugteam_adminlte_theme:
+    class: Debugteam\Bundle\AdminlteThemeBundle\Service\Navigation
     public: true
