@@ -1,2 +1,3 @@
-Debugteam\Bundle\AdminlteThemeBundle\Service\Navigation:
-  public: true
+services:
+  Debugteam\Bundle\AdminlteThemeBundle\Service\Navigation:
+    public: true
